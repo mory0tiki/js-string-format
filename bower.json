@@ -1,0 +1,23 @@
+{
+  "name": "mtjs-string-format",
+  "main": "mtjs-string-format.js",
+  "version": "0.0.0",
+  "authors": [
+    "Morteza Tavanarad <tavanarad@gmail.com>"
+  ],
+  "description": "Format a string like C#",
+  "keywords": [
+    "string",
+    "format",
+    "formatting"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.tavanarad.ir",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
