@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Test MTNG String Format </title>
+        <script type="text/javascript" src="../mtjs-string-format.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>
+            function format(){
+                var str = "Hello {0}!";
+                var param = $("#param").val();
+                alert(str.format(param));
+            }
+        </script>
+
+    </head>
+    <body>
+        <p>Hello {0}!</p>
+        <input name="param" id="param" value="World"/>
+        <button type="button" onClick="format()">Format</button>
+        <hr/>
+    </body>
+</html>
